@@ -673,13 +673,6 @@ Table Format:
 
 <br>
 
-###  Country code of AS2497 in delegated files
-Here we search for a country node directly connected to AS2497's node and that
-comes from NRO's delegated stats.
-
-
-<br>
-
 ### Countries of IXPs where AS2497 is present
 Starting from the node corresponding to AS2497, find IXPs where AS2497 is member
 of, and then the country corresponding to each IXP.
