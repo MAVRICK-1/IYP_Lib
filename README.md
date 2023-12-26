@@ -18,6 +18,13 @@ The IYP Python library is a lightweight query tool designed to simplify interact
 - Designed for ease of use and rapid development.
 - Includes comprehensive documentation and examples for quick onboarding.
 
+### From source files
+Get the latest source files:
+```
+git clone git@github.com:MAVRICK-1/IYP_Lib.git
+
+```
+
 ## Installation
 
 It's not been publised yet , so  have build it locally.
