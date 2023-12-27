@@ -18,13 +18,32 @@ The IYP Python library is a lightweight query tool designed to simplify interact
 - Designed for ease of use and rapid development.
 - Includes comprehensive documentation and examples for quick onboarding.
 
+### From source files
+Get the latest source files:
+```
+git clone git@github.com:MAVRICK-1/IYP_Lib.git
+
+```
+
 ## Installation
 
-It's not been publised yet , so  have build it locally.
+### It hasn't been published yet, you'll need to build it locally,Here's how you can create it
+
+#### Run the following commands in your terminal
 ```cmd
 cd IYP_Lib
+```
+### To install the required packages
+```cmd
 pip install -r requirements.txt
+```
+### The wheel package is a build-package format for python
+
+```cmd
 pip install wheel
+````
+### To create a wheel distribution using setup.py file
+```cmd
 python setup.py bdist_wheel
 ```
 ### Names for ASN
@@ -666,13 +685,6 @@ Table Format:
 
 <br>
 
-###  Country code of AS2497 in delegated files
-Here we search for a country node directly connected to AS2497's node and that
-comes from NRO's delegated stats.
-
-
-<br>
-
 ### Countries of IXPs where AS2497 is present
 Starting from the node corresponding to AS2497, find IXPs where AS2497 is member
 of, and then the country corresponding to each IXP.
@@ -917,4 +929,3 @@ Table Format:
 14  {'asn': 2497}       {'name': 'NYIIX New York'}  {'country_code': 'US', 'name': 'United States ...
 15  {'asn': 2497}          {'name': 'JPNAP Osaka'}  {'country_code': 'JP', 'name': 'Japan', 'alpha...
 ```
-
