@@ -33,11 +33,7 @@ git clone git@github.com:MAVRICK-1/IYP_Lib.git
 
 ### It hasn't been published yet, you'll need to build it locally,Here's how you can create it
 
-<<<<<<< HEAD
 #### Run the following commands in your terminal
-=======
-#### Run the following commands in your terminal :
->>>>>>> 2139cbb247e5edcfb6d188b1d81d2965423d86f7
 ```cmd
 cd IYP_Lib
 ```
