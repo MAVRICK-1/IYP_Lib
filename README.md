@@ -8,11 +8,17 @@ The IYP Python library is a lightweight query tool designed to simplify interact
 
 ### 1. Simplified Querying
 - Execute Cypher queries with minimal code and configuration.
-- Retrieve and Returns Pandas DataFrame Object .
-which can use for Data Exploring, Data Selection and Indexing , Data Manipulation,
-Data Cleaning,Data Visualization, Data Transformation,Time Series Analysis,Advance Operation
-and Integration with Other Libraries
-- Fetch nodes, relationships, and properties effortlessly.
+- Retrieve and Returns Pandas DataFrame Object . which can use for
+    - Data Exploring
+    - Data Selection and Indexing
+    -  Data Manipulation
+    -  Data Cleaning
+    -  Data Visualization
+    -  Data Transformation
+    -  Time Series Analysis
+    -  Advance Operation
+    -  Integration with Other Libraries
+-  Fetch nodes, relationships, and properties effortlessly.
 
 ### 2. Flexible Output Options
 - Retrieve query results in both JSON .
@@ -960,7 +966,7 @@ asnDom.close() #Close the connection to the Neo4j database.
     }
 ]
 Table Format:
-<<<<<<< HEAD
+
      ASn    Internet Exchange  Country Code                                       Country Name
 0   2497          JPNAP Tokyo            JP                                              Japan
 1   2497          SIX Seattle            US                           United States of America
@@ -979,23 +985,3 @@ Table Format:
 14  2497       NYIIX New York            US                           United States of America
 15  2497          JPNAP Osaka            JP                                              Japan
 ```
-=======
-              iij                               ix                                                 cc
-0   {'asn': 2497}          {'name': 'JPNAP Tokyo'}  {'country_code': 'JP', 'name': 'Japan', 'alpha...
-1   {'asn': 2497}          {'name': 'SIX Seattle'}  {'country_code': 'US', 'name': 'United States ...
-2   {'asn': 2497}     {'name': 'Equinix San Jose'}  {'country_code': 'US', 'name': 'United States ...
-3   {'asn': 2497}      {'name': 'Equinix Ashburn'}  {'country_code': 'US', 'name': 'United States ...
-4   {'asn': 2497}    {'name': 'Equinix Hong Kong'}  {'country_code': 'HK', 'name': 'Hong Kong', 'a...
-5   {'asn': 2497}     {'name': 'Equinix New York'}  {'country_code': 'US', 'name': 'United States ...
-6   {'asn': 2497}                 {'name': 'HKIX'}  {'country_code': 'HK', 'name': 'Hong Kong', 'a...
-7   {'asn': 2497}    {'name': 'Equinix Singapore'}  {'country_code': 'SG', 'name': 'Singapore', 'a...
-8   {'asn': 2497}     {'name': 'DE-CIX Frankfurt'}  {'country_code': 'DE', 'name': 'Germany', 'alp...
-9   {'asn': 2497}                 {'name': 'SGIX'}  {'country_code': 'SG', 'name': 'Singapore', 'a...
-10  {'asn': 2497}            {'name': 'LINX LON1'}  {'country_code': 'GB', 'name': 'United Kingdom...
-11  {'asn': 2497}    {'name': 'Equinix Palo Alto'}  {'country_code': 'US', 'name': 'United States ...
-12  {'asn': 2497}               {'name': 'DIX-IE'}  {'country_code': 'JP', 'name': 'Japan', 'alpha...
-13  {'asn': 2497}  {'name': 'Equinix Los Angeles'}  {'country_code': 'US', 'name': 'United States ...
-14  {'asn': 2497}       {'name': 'NYIIX New York'}  {'country_code': 'US', 'name': 'United States ...
-15  {'asn': 2497}          {'name': 'JPNAP Osaka'}  {'country_code': 'JP', 'name': 'Japan', 'alpha...
-```
->>>>>>> 2139cbb247e5edcfb6d188b1d81d2965423d86f7
