@@ -47,6 +47,7 @@ cd IYP_Lib
 ```cmd
 pip install -r requirements.txt
 ```
+<!--
 ### The wheel package is a build-package format for python
 
 ```cmd
@@ -56,6 +57,7 @@ pip install wheel
 ```cmd
 python setup.py bdist_wheel
 ```
+-->
 ### Names for ASn
 Find 'Name' nodes directly connected to the node corresponding to any given ASn(Autonomous System Number).
 ```python
