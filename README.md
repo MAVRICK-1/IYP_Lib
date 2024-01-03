@@ -37,17 +37,21 @@ git clone git@github.com:MAVRICK-1/IYP_Lib.git
 
 ## Installation
 
-### It hasn't been published yet, you'll need to build it locally,Here's how you can create it
-
 #### Run the following commands in your terminal
 ```cmd
 cd IYP_Lib
+
 ```
 ### To install the required packages
 ```cmd
 pip install -r requirements.txt
+
+
 ```
-<!--
+
+
+## To build it locally , Here's how you can create it
+
 ### The wheel package is a build-package format for python
 
 ```cmd
@@ -57,7 +61,7 @@ pip install wheel
 ```cmd
 python setup.py bdist_wheel
 ```
--->
+
 ### Names for ASn
 Find 'Name' nodes directly connected to the node corresponding to any given ASn(Autonomous System Number).
 ```python
